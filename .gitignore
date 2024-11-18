@@ -1,7 +1,8 @@
 /*.txt
 /data/*_data/
-
 /data/all_*
+
+/presentations
 /yolov5
 /*.mp4
 /*.pt
