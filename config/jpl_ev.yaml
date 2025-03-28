@@ -8,7 +8,7 @@ version: 1.6
 # pers1WD nMAEall=5.1%, nMSEall=0.0159, nMSEtrn=0.0158, nMSEvld=0.0173, nMSEtst=0.0136
 
 site: jpl_ev_TEST
-filename: data/ev_charging_station.csv
+filename: https://raw.githubusercontent.com/woodjmichael/Basi-Fondamentali-del-Machine-Learning/refs/heads/main/data/ev_charging_station.csv
 index_col: Datetime
 data_col: Load (kW)
 persist_col: #Persist
@@ -33,7 +33,7 @@ features_list_numbers: []
 calendar_features: False
 
 # training
-epochs: 100
+epochs: 2
 patience: 10
 plots: 'hx'
 verbose: 1
@@ -41,7 +41,7 @@ valid_split: 0.2
 loss: mse
 
 # testing
-forecast_freq: 1h # 1h or 1d
+forecast_freq: 1d # 1h or 1d
 test_plots: False
 test_output: False
 
