@@ -1,6 +1,6 @@
 =0.25.0
 __pycache__/
-/test
+/churn
 /*.txt
 /data/*_data/
 /data/all_*
