@@ -1,8 +1,11 @@
+=0.25.0
+__pycache__/
+/test
 /*.txt
 /data/*_data/
 /data/all_*
-
 /presentations
 /yolov5
 /*.mp4
 /*.pt
+*.bkp
